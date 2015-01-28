@@ -1,0 +1,124 @@
+Format: 1.8
+Date: Wed, 28 Jan 2015 15:58:00 +0100
+Source: glibc
+Binary: glibc-doc glibc-source locales locales-all nscd libc6 libc6-dev libc6-dbg libc6-prof libc6-pic libc6-udeb libc6.1 libc6.1-dev libc6.1-dbg libc6.1-prof libc6.1-pic libc6.1-udeb libc0.3 libc0.3-dev libc0.3-dbg libc0.3-prof libc0.3-pic libc0.3-udeb libc0.1 libc0.1-dev libc0.1-dbg libc0.1-prof libc0.1-pic libc0.1-udeb libc6-i386 libc6-dev-i386 libc6-sparc64 libc6-dev-sparc64 libc6-s390x libc6-dev-s390x libc6-amd64 libc6-dev-amd64 libc6-powerpc libc6-dev-powerpc libc6-ppc64 libc6-dev-ppc64 libc6-mipsn32 libc6-dev-mipsn32 libc6-mips64 libc6-dev-mips64 libc0.1-i386 libc0.1-dev-i386 libc6-sparcv9b libc6-i686 libc6-xen libc0.1-i686 libc6.1-alphaev67 libnss-dns-udeb libnss-files-udeb
+Architecture: source all amd64
+Version: 2.7-18lenny7.1
+Distribution: stable-security
+Urgency: high
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Changed-By: Kevin Littlejohn <kevin@littlejohn.id.au>
+Description: 
+ glibc-doc  - GNU C Library: Documentation
+ glibc-source - GNU C Library: sources
+ libc0.1    - GNU C Library: Shared libraries
+ libc0.1-dbg - GNU C Library: Libraries with debugging symbols
+ libc0.1-dev - GNU C Library: Development Libraries and Header Files
+ libc0.1-dev-i386 - GNU C Library: 32bit development libraries for AMD64
+ libc0.1-i386 - GNU C Library: 32bit shared libraries for AMD64
+ libc0.1-i686 - GNU C Library: Shared libraries [i686 optimized]
+ libc0.1-pic - GNU C Library: PIC archive library
+ libc0.1-prof - GNU C Library: Profiling Libraries
+ libc0.1-udeb - GNU C Library: Shared libraries - udeb (udeb)
+ libc0.3    - GNU C Library: Shared libraries
+ libc0.3-dbg - GNU C Library: Libraries with debugging symbols
+ libc0.3-dev - GNU C Library: Development Libraries and Header Files
+ libc0.3-pic - GNU C Library: PIC archive library
+ libc0.3-prof - GNU C Library: Profiling Libraries
+ libc0.3-udeb - GNU C Library: Shared libraries - udeb (udeb)
+ libc6      - GNU C Library: Shared libraries
+ libc6-amd64 - GNU C Library: 64bit Shared libraries for AMD64
+ libc6-dbg  - GNU C Library: Libraries with debugging symbols
+ libc6-dev  - GNU C Library: Development Libraries and Header Files
+ libc6-dev-amd64 - GNU C Library: 64bit Development Libraries for AMD64
+ libc6-dev-i386 - GNU C Library: 32bit development libraries for AMD64
+ libc6-dev-mips64 - GNU C Library: 64bit Development Libraries for MIPS64
+ libc6-dev-mipsn32 - GNU C Library: n32 Development Libraries for MIPS64
+ libc6-dev-powerpc - GNU C Library: 32bit powerpc development libraries for ppc64
+ libc6-dev-ppc64 - GNU C Library: 64bit Development Libraries for PowerPC64
+ libc6-dev-s390x - GNU C Library: 64bit Development Libraries for IBM zSeries
+ libc6-dev-sparc64 - GNU C Library: 64bit Development Libraries for UltraSPARC
+ libc6-i386 - GNU C Library: 32bit shared libraries for AMD64
+ libc6-i686 - GNU C Library: Shared libraries [i686 optimized]
+ libc6-mips64 - GNU C Library: 64bit Shared libraries for MIPS64
+ libc6-mipsn32 - GNU C Library: n32 Shared libraries for MIPS64
+ libc6-pic  - GNU C Library: PIC archive library
+ libc6-powerpc - GNU C Library: 32bit powerpc shared libraries for ppc64
+ libc6-ppc64 - GNU C Library: 64bit Shared libraries for PowerPC64
+ libc6-prof - GNU C Library: Profiling Libraries
+ libc6-s390x - GNU C Library: 64bit Shared libraries for IBM zSeries
+ libc6-sparc64 - GNU C Library: 64bit Shared libraries for UltraSPARC
+ libc6-sparcv9b - GNU C Library: Shared libraries [v9b optimized]
+ libc6-udeb - GNU C Library: Shared libraries - udeb (udeb)
+ libc6-xen  - GNU C Library: Shared libraries [Xen version]
+ libc6.1    - GNU C Library: Shared libraries
+ libc6.1-alphaev67 - GNU C Library: Shared libraries (EV67 optimized)
+ libc6.1-dbg - GNU C Library: Libraries with debugging symbols
+ libc6.1-dev - GNU C Library: Development Libraries and Header Files
+ libc6.1-pic - GNU C Library: PIC archive library
+ libc6.1-prof - GNU C Library: Profiling Libraries
+ libc6.1-udeb - GNU C Library: Shared libraries - udeb (udeb)
+ libnss-dns-udeb - GNU C Library: NSS helper for DNS - udeb (udeb)
+ libnss-files-udeb - GNU C Library: NSS helper for files - udeb (udeb)
+ locales    - GNU C Library: National Language (locale) data [support]
+ locales-all - GNU C Library: Precompiled locale data
+ nscd       - GNU C Library: Name Service Cache Daemon
+Changes: 
+ glibc (2.7-18lenny7.1) stable-security; urgency=high
+ .
+   * Fixes: CVE-2015-0235.
+Checksums-Sha1: 
+ 840cbb49fb2369495005ba62d598db90ef7044ec 2335 glibc_2.7-18lenny7.1.dsc
+ cde12fb453b8e489f0eb6c3d388e58fe7296ab4f 752943 glibc_2.7-18lenny7.1.diff.gz
+ 80ee72d0966286e2af082ffa8b48e81c557d38ec 1629434 glibc-doc_2.7-18lenny7.1_all.deb
+ ed236e19643bb6a88a57c54dd106e2ec971fdbab 16012424 glibc-source_2.7-18lenny7.1_all.deb
+ 6e0e6e31858051bcbdc125249a689722b260a2bc 4495740 locales_2.7-18lenny7.1_all.deb
+ 2572e897bf77f71e662ef94f8366db7248d40116 4952990 libc6_2.7-18lenny7.1_amd64.deb
+ b9392f5fa8c67ed8798bec4a41c755c9e586cec4 2497690 libc6-dev_2.7-18lenny7.1_amd64.deb
+ cfa423b56e84435293f93c319918b589ff1f74a7 1929326 libc6-prof_2.7-18lenny7.1_amd64.deb
+ 1af116e769a9a3f803cd3bfb0bc9516e8c519dc3 1466268 libc6-pic_2.7-18lenny7.1_amd64.deb
+ ea56b6f62845f753b8134d80ef687453789a6579 2754674 locales-all_2.7-18lenny7.1_amd64.deb
+ 9865cceabd93f24721373374d2f4ec37cb01c91c 3775868 libc6-i386_2.7-18lenny7.1_amd64.deb
+ 4a14685a19bf3469215863670e0270d6685b45ce 1459320 libc6-dev-i386_2.7-18lenny7.1_amd64.deb
+ c4c5c2eb97d8b1bf43c9234a30c5aae0df630f7a 175396 nscd_2.7-18lenny7.1_amd64.deb
+ 059e245b8e031a8bcc3d7caa35c62086fe972fba 5332540 libc6-dbg_2.7-18lenny7.1_amd64.deb
+ 23cf45321314be2704c30fbf2b0f35ceec7836ca 1106542 libc6-udeb_2.7-18lenny7.1_amd64.udeb
+ e69c0d9fe36a8c1f9c2bba8172402160b3c3425e 9424 libnss-dns-udeb_2.7-18lenny7.1_amd64.udeb
+ 3a7f2d3e09a45d795c27b5ef1cedea4adfb150a7 18314 libnss-files-udeb_2.7-18lenny7.1_amd64.udeb
+Checksums-Sha256: 
+ 1614b1d6c34f56ace5f63adda8c0da428ca5985d6cb29f9513f88585ea8bd586 2335 glibc_2.7-18lenny7.1.dsc
+ b9ae646c9577147e7f620beb798270f226e140d02da7c12df5859a9f719b2096 752943 glibc_2.7-18lenny7.1.diff.gz
+ 439451fa4204e27716386a5b9c2825703e46c6b762429300f47d0056179f94c1 1629434 glibc-doc_2.7-18lenny7.1_all.deb
+ 7773e0dc053504874909a5ec789ed315ef1e820ba23a4da672d806a4214207df 16012424 glibc-source_2.7-18lenny7.1_all.deb
+ acbcb2635b14328bdf4bdd29ac688fcaccf4407fdf4b86ad520e75ba5a42b5a6 4495740 locales_2.7-18lenny7.1_all.deb
+ fc293142d4a90e554507e1eab5006ebd5cb5c80f48a8f21dccca085340d8d707 4952990 libc6_2.7-18lenny7.1_amd64.deb
+ 3e56f8ee3b6d1ce01bbf1a94cde49d0cc5fef7e349648724befbd4add53fdc1e 2497690 libc6-dev_2.7-18lenny7.1_amd64.deb
+ 03802e1b965c50b895a24a2b05d8754febac647ea1912448c3001893323ac252 1929326 libc6-prof_2.7-18lenny7.1_amd64.deb
+ ab9b961c75f58a4b8a5cf4872f05cf7487a3ac33bfd03a982842575a30c69e98 1466268 libc6-pic_2.7-18lenny7.1_amd64.deb
+ caf23de6eeafa0f5009ac1b02cd37aec94bf08acd3d5ac6497dc0b317380c6e5 2754674 locales-all_2.7-18lenny7.1_amd64.deb
+ 6a9c68a4b6e36c7f2fba1082dffaf0850ccdf243c2049fc117d71d1e0f26b762 3775868 libc6-i386_2.7-18lenny7.1_amd64.deb
+ f4f02031d37782fc197b09d579cdb86bda1b5287b0e32518cea5c0466fb0924c 1459320 libc6-dev-i386_2.7-18lenny7.1_amd64.deb
+ f4bb1c10eab3e6c4a91c203490f1d4fc668b296c12e3a13952f135fabfe1eadc 175396 nscd_2.7-18lenny7.1_amd64.deb
+ 9eb39ee8cdf2499a91223b234c68d72c0ed847fd848f3dc958238b7cc669da72 5332540 libc6-dbg_2.7-18lenny7.1_amd64.deb
+ f774d1eb9c789308c20e4f38e03da3ca3786c7e429a7b3a5920e3545bdbc42ca 1106542 libc6-udeb_2.7-18lenny7.1_amd64.udeb
+ 878d24020159b4ad6c71fe5cf0c608d96c49849bd18c57fb0712581b28ad4329 9424 libnss-dns-udeb_2.7-18lenny7.1_amd64.udeb
+ 146dd29ad7611ee8848f6f5b80aa800f90002ea1f5e942d5007d31550b6da982 18314 libnss-files-udeb_2.7-18lenny7.1_amd64.udeb
+Files: 
+ 6324933f4fe2452389ee277457c638b3 2335 libs required glibc_2.7-18lenny7.1.dsc
+ 0aced78b245fe2d4c97e0615e2664f83 752943 libs required glibc_2.7-18lenny7.1.diff.gz
+ d75c5dab9d5055dfc680b4622d924222 1629434 doc optional glibc-doc_2.7-18lenny7.1_all.deb
+ 5a8f8ea95022cf46fe9ed165f590e71f 16012424 devel optional glibc-source_2.7-18lenny7.1_all.deb
+ 88590a403b9a28a18f02c93539657f58 4495740 libs standard locales_2.7-18lenny7.1_all.deb
+ 61b71dcb9b1f3bd74f93afd228929ae4 4952990 libs required libc6_2.7-18lenny7.1_amd64.deb
+ 581cc9232791fcbea13e0a6e759b5daf 2497690 libdevel optional libc6-dev_2.7-18lenny7.1_amd64.deb
+ 67285213b27bc5c8f4814e23397b8f1f 1929326 libdevel extra libc6-prof_2.7-18lenny7.1_amd64.deb
+ ea60c1ebbd00372ef92bcd88eec6fa30 1466268 libdevel optional libc6-pic_2.7-18lenny7.1_amd64.deb
+ bee4f0a0ca48b245ea1332cea37f7ca2 2754674 libs extra locales-all_2.7-18lenny7.1_amd64.deb
+ 0ac7b224d0139f6b07d84be3e47590f5 3775868 libs optional libc6-i386_2.7-18lenny7.1_amd64.deb
+ 0318e413169533f7808f86893385ddf0 1459320 libdevel optional libc6-dev-i386_2.7-18lenny7.1_amd64.deb
+ 2a663202e0ec1c9b987a9c4972eb1d98 175396 admin optional nscd_2.7-18lenny7.1_amd64.deb
+ 5bc0385a2a94d26f76900361528f0636 5332540 libdevel extra libc6-dbg_2.7-18lenny7.1_amd64.deb
+ c4b222b89ba5e072d0efaf69497e6aa8 1106542 debian-installer extra libc6-udeb_2.7-18lenny7.1_amd64.udeb
+ f0170374e0e8ae559472d2cbc3b874da 9424 debian-installer extra libnss-dns-udeb_2.7-18lenny7.1_amd64.udeb
+ 5f6441d0659b45b3968937c0655b4275 18314 debian-installer extra libnss-files-udeb_2.7-18lenny7.1_amd64.udeb
+Package-Type: udeb
